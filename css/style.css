@@ -1,0 +1,349 @@
+/*==============
+ common css
+============== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 870px;
+    background: #ffff;
+    padding-left: 30px;
+}
+
+.title {
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    text-transform: capitalize;
+}
+
+/*==============
+ common css
+============== */
+
+/*    ============== 
+                        player  section css end
+                                                   ============== */
+
+#firstsection .title {
+    padding-top: 30px;
+}
+
+#firstsection .playerid {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 28px;
+    margin-bottom: 30px;
+}
+
+#firstsection .playerid .player {
+    display: flex;
+    align-items: center;
+}
+
+#firstsection .playerid .player img {
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+
+}
+
+#firstsection .playerid .player h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+#firstsection .line {
+    height: 1px;
+    background-color: #D1D1D1;
+    width: 807px;
+    margin-bottom: 30px;
+}
+
+/* ==============
+                   player  section css end
+                                            ============== */
+
+
+/*                   ==============
+                    blog section css start
+                        ==============             */
+
+#blog .blogs .top-blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 28px;
+    padding-top: 31px;
+    margin-bottom: 42px;
+}
+
+#blog .blogs .blog-one {
+    display: flex;
+
+}
+
+#blog .blogs .blog-one .img img {
+    width: 177px;
+    height: 117px;
+}
+
+#blog .blogs .blog-one .info {
+    margin-left: 28px;
+}
+
+#blog .blogs .blog-one .info h2 {
+    width: 197px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 6px;
+}
+
+#blog .blogs .blog-one .info h3 {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+#blog .blogs .blog-one .info h3 a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+/*                   ==============
+                    blog section css end
+                        ==============             */
+
+/* ==============
+                     course section css start 
+                        ==============             */
+#course {
+    margin-top: 21px;
+    margin-bottom: 50px;
+
+}
+
+#course .title {
+    padding-top: 24px;
+}
+
+#course .courses .course-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    padding-top: 24px;
+    padding-right: 36px;
+    margin-bottom: 22px;
+}
+
+#course .course-box .layout {
+    padding-top: 13px;
+    padding-left: 12px;
+    padding-right: 10pxpx;
+    border: 1px solid #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 10px 10px 38px -5px rgba(0, 0, 0, 0.1);
+
+}
+
+#course .course-box .layout .img {
+    margin-bottom: 19.56px;
+
+}
+
+#course .course-box .layout .img img {
+    width: 225px;
+    height: 104px;
+}
+
+#course .course-box .layout .info {
+    margin-bottom: 12.57px;
+}
+
+#course .course-box .layout .info h4 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #1E1E1E;
+    margin-bottom: 4px;
+}
+
+#course .course-box .layout .info h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+#course .course-box .layout .info h6 {
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+
+
+}
+
+#course .course-box .layout .rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+#course .course-box .layout .rating .icon .star {
+    width: 13px;
+    height: 12px;
+    color: #FFC014;
+}
+
+#course .course-box .layout .rating .icon .half {
+    width: 13px;
+    height: 12px;
+    color: #9F9F9F;
+}
+
+#course .course-box .layout .rating .icon p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#course .course-box .layout .rating .clock {
+    margin-left: 32px;
+}
+
+#course .course-box .layout .rating .ticktok {
+    Width:
+        20.03px;
+    Height:
+        20.03px;
+    color: #FF4A60;
+}
+
+#course .course-box .layout .rating h4 {
+    display: inline-block;
+    color: #FF4A60;
+    font-weight: 600;
+    font-size: 14.6913px;
+    line-height: 20px;
+}
+
+/*  ==============
+                     course section css end
+                        ==============             */
+@media only screen and (max-width:688px) {
+
+
+    #firstsection{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+    }
+     #firstsection .playerid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }
+    #firstsection .playerid .player{
+        flex-direction: column;
+        align-items: center;
+    }
+    #blog .blogs .top-blocks{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #blog .blogs .top-blocks .blog-one{
+        flex-direction: column;
+        align-items: center;
+    }
+    #blog .blogs .top-blocks .blog-one .info{
+        margin-left: 0px;
+    }
+    #course{
+        width: 100%;
+    }
+    #course .main{
+        width: auto;
+      
+       
+    }
+    #course .container {
+        width: 100%;
+
+    }
+    #course .courses{
+        width: 100%;
+    }
+    #course .courses .course-box{
+      grid-template-columns: repeat(1,1fr);
+
+    }
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    #firstsection{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+    }
+     #firstsection .playerid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+    #firstsection .playerid .player{
+        flex-direction: row;
+        align-items: center;
+        margin-left: 90px;
+    }
+    #blog .blogs .top-blocks{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #blog .blogs .top-blocks .blog-one{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    #course{
+        width: 100%;
+    }
+    #course .main{
+        width: auto;
+      
+       
+    }
+    #course .container {
+        width: 100%;
+
+    }
+    #course .courses{
+        width: 100%;
+    }
+    #course .courses .course-box{
+      grid-template-columns: repeat(2,1fr);
+
+    }
+    #course .courses .course-box .layout{
+        margin-top: 10px;
+    }
+}
